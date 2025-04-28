@@ -118,7 +118,8 @@ Endmodule
       (The path of cshrc could vary depending on the installation destination)
       
 	After this you can see the window like below 
-![WhatsApp Image 2025-04-24 at 09 11 52_43c039bc](https://github.com/user-attachments/assets/8547d210-c218-44db-bc47-a67459309ba5)
+![image](https://github.com/user-attachments/assets/2825430a-ea4f-439e-b29d-7dafc5cc5d93)
+
 
 
 ### Fig 3:Invoke the Cadence Environment
@@ -132,7 +133,8 @@ or
 •	linux:/> nclaunch& // On subsequent calls to NCVERILOG 
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
-![3](https://github.com/user-attachments/assets/8bb1c36c-4b36-4cd6-8b89-1b177e1fbc2e)
+![image](https://github.com/user-attachments/assets/744a0cca-9e42-4401-a7d4-a6829e6189ed)
+
 
 
 ### Fig 4:Setting Multi-step simulation
@@ -140,7 +142,7 @@ or
 	Select Multiple Step and then select “Create cds.lib File” .
 
 	Click the cds.lib file and save the file by clicking on Save option 
-![4](https://github.com/user-attachments/assets/a7ab92e0-1258-4560-80c7-8eb1242571ae)
+![image](https://github.com/user-attachments/assets/6dd1eb8a-7199-4479-a358-6acf1ff57ee8)
 
 ### Fig 5:cds.lib file Creation
 
@@ -163,7 +165,8 @@ or
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
-![6](https://github.com/user-attachments/assets/64e5055d-6b2f-4e48-b2e7-feedf3462a06)
+![image](https://github.com/user-attachments/assets/a2eb6b43-5e7a-44fb-81d3-6eea5f20493d)
+
 
 ### Fig 7: Nclaunch Window
 
@@ -183,7 +186,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
-![6](https://github.com/user-attachments/assets/64e5055d-6b2f-4e48-b2e7-feedf3462a06)
+![image](https://github.com/user-attachments/assets/6f8f05a4-1cc6-4c71-ac11-b90705255d6d)
+
 ### Fig 8: Compiled database in worklib
 
 	After compilation it will come under worklib you can see in right side window
@@ -206,7 +210,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 5.	It also establishes net connectivity and prepares all of this for simulation
    
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
-![7](https://github.com/user-attachments/assets/58faa331-2ec3-492a-8fe8-ba4dcbdf2cc4)
+![image](https://github.com/user-attachments/assets/f1c8f592-5803-4079-86bd-34c7275d1fe6)
+
 
 ### Fig 9: Elaboration Launch Option
 
@@ -219,16 +224,19 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	Simulation allow to dump design and test bench signals into a waveform 
 
 	Steps for simulation – Run the simulation command with simulator options
-![8](https://github.com/user-attachments/assets/3f0ebdeb-590a-47cb-b4b8-2fcf4565c224)
+![image](https://github.com/user-attachments/assets/26a949a2-1e8e-4ecd-ae71-70bdd87ca358)
+
 
 ### Fig 10: Design Browser window for simulation
-![8](https://github.com/user-attachments/assets/f35feed9-0a24-4c28-b235-ce8c7a2a474f)
+![image](https://github.com/user-attachments/assets/2856bc59-3366-4e8b-8aef-f26c804d3591)
+
 
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
-![9](https://github.com/user-attachments/assets/2c5441d0-d903-4120-9611-87479d609c2a)
+![image](https://github.com/user-attachments/assets/a126fcf0-d214-4ed1-9436-5b01f95190ef)
 
 ### Fig 12: Simulation Waveform Window
-![Screenshot 2025-03-19 161324](https://github.com/user-attachments/assets/968f901b-4c3b-4f2b-8802-f0213a41e95d)
+![image](https://github.com/user-attachments/assets/a126fcf0-d214-4ed1-9436-5b01f95190ef)
+
 
 ### Result:
 
